@@ -10,7 +10,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container box">
+        <div id="banner" class="container box">
           <a class="navbar-brand" href="#"><img src="./image/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,8 +28,8 @@
                   Dropdown
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#pro2">Action</a></li>
+                  <li><a class="dropdown-item" href="#banner">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -139,7 +139,7 @@
   <div class="container">
 
 
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div id="pro2" class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
         <img src="./image/leptop.jpg" class="card-img-top" alt="...">
@@ -315,6 +315,50 @@
 
 </div>
 
+</section>
+
+
+
+
+<section class="drop-list">
+
+  <div class="container">
+
+  <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">First</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#pro2">Third</a></li>
+          <li><a class="dropdown-item" href="#banner">Fourth</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <h4 id="scrollspyHeading1">First heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading2">Second heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading3">Third heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading4">Fourth heading</h4>
+    <p>...</p>
+    <h4 id="scrollspyHeading5">Fifth heading</h4>
+    <p>...</p>
+  </div>
+
+</div>
+  
 </section>
       
 
