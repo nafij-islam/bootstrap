@@ -1,11 +1,18 @@
 .banner-part{
     background-color:#212529;
-    padding: 50px;
+    padding: 25px;
 }
 
 .product{
-    padding: 50px;
+    padding: 25px;
     background-color:#212529;
 }
+
+
+.best-product{
+    padding: 25px;
+    background-color:#212529;
+}
+
 
 
